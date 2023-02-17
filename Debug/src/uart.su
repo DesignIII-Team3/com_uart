@@ -1,0 +1,5 @@
+core_cm4.h:1452:22:NVIC_EnableIRQ	16	static
+uart.c:16:8:uart_configure	32	static
+uart.c:52:7:USART2_IRQHandler	16	static
+uart.c:60:5:uart_sendString	16	static
+uart.c:72:5:uart_sendCommande	56	static
