@@ -10,6 +10,9 @@
 
 #define SIZE_CIRCULAR_BUFFER 20
 
+#define CMD_VMEASURE 0x00
+#define CMD_AMEASURE 0x01
+
 /**
  * Configurer le uart1
  */
@@ -24,7 +27,7 @@ int uart_sendString(char* p_str);
 
 int uart_sendCommande(uint8_t p_cmd,
 		 	 	 	  void* p_data,
-					  unsigned int p_size);
+					  unsigned int p_bytes_to_send);
 
 
 
